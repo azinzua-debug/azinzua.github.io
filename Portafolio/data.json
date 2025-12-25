@@ -13,12 +13,21 @@
       "imagen": "img/ejemplo2.png"
     }
   ],
+
+
+
+
+  
   "mensajes": [
     {
       "texto": "Comisiones abiertas ✨"
     }
   ],
 
+
+
+
+  
   "proceso": [
     "Contacto",
     "Boceto",
@@ -26,16 +35,12 @@
     "Entrega final"
   ],
 
+
+
+  
   "redes": {
     "instagram": "https://instagram.com/usuario",
     "twitter": "https://twitter.com/usuario",
     "telegram": "https://t.me/usuario"
   }
 }
-
-
-
-
-
-
-
