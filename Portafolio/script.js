@@ -1,8 +1,13 @@
-fetch("../data.json")
+const isSubpage = document.body.dataset.page;
+const jsonPath = isSubpage ? "../data.json" : "data.json";
+
+fetch(jsonPath)
   .then(r => r.json())
   .then(data => {
-    const page = document.body.dataset.page;
     const container = document.getElementById("content");
+    if (!container) return;
+
+    const page = document.body.dataset.page;
 
     if (page === "productos") {
       data.productos.forEach(p => {
