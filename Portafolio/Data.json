@@ -1,0 +1,30 @@
+{
+  "productos": [
+    {
+      "titulo": "Comisión Furry",
+      "precio": "$1200 UYU",
+      "descripcion": "Ilustración full color",
+      "imagen": "img/ejemplo.png"
+    }
+  ],
+
+  "mensajes": [
+    {
+      "texto": "Comisiones abiertas ✨"
+    }
+  ],
+
+  "proceso": [
+    "Contacto",
+    "Boceto",
+    "Pago",
+    "Entrega final"
+  ],
+
+  "redes": {
+    "instagram": "https://instagram.com/usuario",
+    "twitter": "https://twitter.com/usuario",
+    "telegram": "https://t.me/usuario"
+  }
+}
+

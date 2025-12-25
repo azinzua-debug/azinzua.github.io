@@ -1,0 +1,47 @@
+:root {
+  --bg: linear-gradient(120deg, #eaeaea, #f6f1d3);
+  --card: rgba(255,255,255,0.75);
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --radius: 24px;
+  --accent: #f6d365;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: var(--bg);
+}
+
+header {
+  padding: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  background: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  color: black;
+}
+
+.container {
+  padding: 40px;
+  display: grid;
+  gap: 24px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+}
