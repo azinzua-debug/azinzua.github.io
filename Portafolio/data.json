@@ -6,8 +6,7 @@
       "descripcion": "Ilustración full color",
       "imagen": "img/ejemplo.png"
     },
-    {
-  "productos": [
+ "productos": 
     {
       "titulo": "Comisión Furry",
       "precio": "$1200 UYU",
@@ -16,6 +15,7 @@
     }
   ],
 
+  
   "mensajes": [
     {
       "texto": "Comisiones abiertas ✨"
@@ -35,6 +35,7 @@
     "telegram": "https://t.me/usuario"
   }
 }
+
 
 
 
