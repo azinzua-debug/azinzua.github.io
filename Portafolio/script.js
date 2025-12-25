@@ -49,3 +49,4 @@ fetch(jsonPath)
     }
   })
   .catch(err => console.error("Error cargando JSON:", err));
+
