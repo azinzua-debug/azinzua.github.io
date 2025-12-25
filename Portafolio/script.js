@@ -1,13 +1,13 @@
-const isSubpage = document.body.dataset.page;
-const jsonPath = isSubpage ? "../data.json" : "data.json";
+const page = document.body.dataset.page;
+
+// detecta si estamos en subcarpeta
+const jsonPath = page ? "../data.json" : "data.json";
 
 fetch(jsonPath)
   .then(r => r.json())
   .then(data => {
     const container = document.getElementById("content");
     if (!container) return;
-
-    const page = document.body.dataset.page;
 
     if (page === "productos") {
       data.productos.forEach(p => {
@@ -51,4 +51,5 @@ fetch(jsonPath)
         </div>
       `;
     }
-  });
+  })
+  .catch(err => console.error("Error cargando JSON:", err));
