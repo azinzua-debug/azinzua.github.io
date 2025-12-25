@@ -1,7 +1,5 @@
-const page = document.body.dataset.page;
-
-// detecta si estamos en subcarpeta
-const jsonPath = page ? "../data.json" : "data.json";
+const page = document.body.dataset.page || "home";
+const jsonPath = page === "home" ? "data.json" : "../data.json";
 
 fetch(jsonPath)
   .then(r => r.json())
@@ -25,9 +23,7 @@ fetch(jsonPath)
     if (page === "mensajes") {
       data.mensajes.forEach(m => {
         container.innerHTML += `
-          <div class="card">
-            <p>${m.texto}</p>
-          </div>
+          <div class="card">${m.texto}</div>
         `;
       });
     }
@@ -46,7 +42,7 @@ fetch(jsonPath)
       container.innerHTML += `
         <div class="card">
           ${Object.entries(data.redes)
-            .map(([k,v]) => `<a href="${v}">${k}</a>`)
+            .map(([k,v]) => `<a href="${v}" target="_blank">${k}</a>`)
             .join("<br>")}
         </div>
       `;
