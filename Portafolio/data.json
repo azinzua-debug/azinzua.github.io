@@ -10,7 +10,7 @@
       "titulo": "Comisión Furry 2",
       "precio": "$1500 UYU",
       "descripcion": "Ilustración full color premium",
-      "imagen": "img/ejemplo2.png"
+      "imagen": "img/ejemplo.png"
     }
   ],
 
@@ -44,3 +44,4 @@
     "telegram": "https://t.me/usuario"
   }
 }
+
