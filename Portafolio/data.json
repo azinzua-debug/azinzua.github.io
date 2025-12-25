@@ -6,16 +6,13 @@
       "descripcion": "Ilustración full color",
       "imagen": "img/ejemplo.png"
     },
- "productos": 
     {
-      "titulo": "Comisión Furry",
-      "precio": "$1200 UYU",
-      "descripcion": "Ilustración full color",
-      "imagen": "img/ejemplo.png"
+      "titulo": "Comisión Furry 2",
+      "precio": "$1500 UYU",
+      "descripcion": "Ilustración full color premium",
+      "imagen": "img/ejemplo2.png"
     }
   ],
-
-  
   "mensajes": [
     {
       "texto": "Comisiones abiertas ✨"
@@ -35,6 +32,7 @@
     "telegram": "https://t.me/usuario"
   }
 }
+
 
 
 
